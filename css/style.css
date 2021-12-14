@@ -1087,7 +1087,7 @@ body {
 }
 
 .button::before {
-  content: url("../img/fire.png");
+  content: url("../img/fire.webp");
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1318,7 +1318,7 @@ body {
 
 .best-float__content::after {
   content: "";
-  background-image: url("../img/border.png");
+  background-image: url("../img/border.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -1443,7 +1443,7 @@ body {
 
 .skins__content::after {
   content: "";
-  background-image: url("../img/border.png");
+  background-image: url("../img/border.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -1890,6 +1890,10 @@ body {
     height: auto;
     border: solid 10px #302f2b;
     border-radius: 60px;
+  }
+
+  .header {
+    background-image: url(../img/header_bg.webp);
   }
 }
 
